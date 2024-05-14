@@ -1,0 +1,154 @@
+/* CSS Document */
+
+/***  TAG ***/
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #000;
+	margin: 0 0 0 0;
+	text-align:left;
+}
+
+ol , ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333;
+	margin: 0 0 0 15px;
+	text-align:left;
+}
+
+table.tabelaConteudo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	margin: 30px auto;
+	font-weight: bold;
+	color: #333;
+	border: 5px solid #ccc;
+	background-color: #fff;
+}
+
+.tabelaConteudo td {
+	border: 2px solid #fff;
+	_border: 0;
+}
+
+a.linkCurso {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:link.linkCurso , a:active.linkCurso , a:visited.linkCurso {
+	color:#3E5875;
+}
+
+a:hover.linkCurso {
+	color: #AD8830;
+}
+
+.linkCurso div
+{
+	padding:5px;
+}
+
+.linkCurso div:hover
+{
+	background-color: #9ebece;
+}
+
+
+/***  ID ***/
+
+
+/***  CLASS ***/
+
+.topoCBCA {
+	background-image: url(/moodle/imagens/CBCA/bgTopo.gif);
+	background-repeat: repeat-x;
+	height: 70px;
+	min-width: 359px;
+}
+
+.logoCBCA {
+	width: 133px;
+	float: left;
+}
+
+.modulo {
+	width: 226px;
+	float: right;
+}
+
+
+.titulo {
+	padding: 7px;
+	background-color: #DBDBDB;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: bold;
+	color: #435B76;
+	margin: 30px 0 20px 0;
+}
+
+.subTitulo1 {
+	padding: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #6891B9;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #DBDBDB;
+	margin: 30px 0 12px 0;
+	text-align:left;
+}
+
+.imagem {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #F6F6F6;
+	margin: 20px 0;
+}
+
+.imagem img {
+	border: 8px solid #fff;
+}
+
+.foto {
+	padding: 10px;
+	text-align: center;
+}
+
+.legenda {
+	background-color: #E9E9E9;
+	padding: 3px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 11px;
+}
+
+.video {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-color: #f3f3f3;
+	padding: 15px 15px 5px 15px;
+	margin: 20px 0;
+	border: 1px solid #3E5875;
+}
+
+.col1 {
+	margin: 5px;
+	background-color: #F5DEA7;
+}
+
+.col2 {
+	margin: 5px;;
+	background-color: #BCD5E2;
+}
+
+.topo
+{
+	width: 100%;
+	border-top: 1px solid #ccc;
+	text-align: right;
+	color: #000;
+	font-weight: bold;
+	font-size: 12p

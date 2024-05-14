@@ -1,0 +1,29 @@
+body {
+	font-family: Arial;
+}
+
+a {
+	color: #4790b8;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #4ea5d5;
+	text-decoration: underline;
+}
+
+h1 {
+	text-align: center;
+}
+
+p.sub {
+	text-align: center;
+}
+
+.menu_box {
+	border: solid 4px #ccc;
+	padding: 10px 20px;
+	width: 500px;
+	margin: 0 auto;
+}
